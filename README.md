@@ -57,7 +57,7 @@ The Template section will map the CA's SSL profile to an AD template. Currently 
  ```json
   "Templates": {
 	"SectigoEnterpriseSSLPro1yr": {
-           "ProductID": "3210", /*Sectigo EnterpriseSSL Pro - ID from Cert Manager*/
+           "ProductID": 3210, /*Sectigo EnterpriseSSL Pro - ID from Cert Manager*/
            "Parameters": {
                  "MultiDomain": "false"
       }
